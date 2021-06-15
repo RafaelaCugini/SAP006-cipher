@@ -1,14 +1,33 @@
 <!DOCTYPE html>
-<html>
+<html lang="pt-BR">
 <head>
   <meta charset="utf-8">
-  <title>Caesar Cipher</title>
+  <meta content="width=device-width, initial-scale=1, maximum-scale=1" name="viewport">
+  <title>Cifra de Cesar</title>
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <div id="root">
-    <h1>Hello world!</h1>
-  </div>
+  <header>
+      <p>Você sabia que tem como enviar mensagens para alguém do futuro? Essas mensagens são em criptografia. Gostaria de enviar uma mensagem para alguem do futuro?</p>
+  </header>
+  <main> 
+    <div class="table"> 
+      <form>
+        <textarea id="text" style="resize: none" name="text_message" type="text" placeholder="Digite a mensagem aqui!" wrap="soft"></textarea>
+        <div class="key">
+          <p> <strong> DESLOCAMENTO </strong> </p>
+          <input id="offset" type="number" name="offset" value="0" min="0"> 
+        </div>
+        <textarea id="code" style="resize: none" name="cipher" type="text" placeholder="Mensagem codificada aqui." wrap="soft"></textarea>   
+      </form>
+    <div class="buttons">
+      <button id="cripto"> CODIFICAR </button>
+      <button id="decripto"> DESCODIFICAR </button>
+    </div> 
+    </div>
+  </main>
+  <footer> 
+    <a href="https://pt.wikipedia.org/wiki/Cifra_de_C%C3%A9sar" target="_blank">O que é Cifra de Cesar?</a></footer>
   <script src="index.js" type="module"></script>
 </body>
 </html>
