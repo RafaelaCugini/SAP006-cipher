@@ -1,9 +1,9 @@
 *{
-  font-family: 'Ubuntu', sans-serif;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 body { 
-    background: #ffa4bd;
+    background: #ffa4bd url(./img/Plane2.png);
 }
 a {
     display: flex;
@@ -14,10 +14,13 @@ a {
     font-weight: bold;
     color: rgb(170, 14, 14);
 }
-p {
-  border: 1px solid red;
+h1 {
+  border: 3px solid red;
+  border-radius: 5px;
+  text-align: center;
   margin: 100px;
   padding: 40px;
+  background-color: rgba(255, 255, 255, 0.509);
 }
 form {
     display: flex;
