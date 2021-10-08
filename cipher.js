@@ -12,7 +12,7 @@ const cipher = {
        code += String.fromCharCode(encript);
     }
   }
-  //console.log (code);
+   //console.log (code);
   return code;
   },
 

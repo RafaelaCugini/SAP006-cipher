@@ -3,7 +3,8 @@
 }
 
 body { 
-    background: #ffa4bd url(./img/Plane2.png);
+    background-image: url(./img/future.jpg);
+    background-color: #ffa4bd ;
 }
 a {
     display: flex;
